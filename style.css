@@ -57,3 +57,8 @@
  p{
      color: blueviolet;
  }
+ .thumbnail{
+    width: 300pX;
+    display: block;
+
+}
