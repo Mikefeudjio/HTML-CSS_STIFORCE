@@ -28,7 +28,7 @@
     border-radius: 2px;
     cursor: pointer;
     margin-right: 8px;
-    transition: opacity 0.15s;
+    transition: background-color 1s;
 }
  .button_j :hover{
       background: rgb(32, 32, 165);
@@ -51,7 +51,7 @@
     font-size: 15px;
 }
  .button_t :hover{
-      background: rgb(32, 32, 165);
+    box-shadow: 5px 5px 10px rgb(151, 63, 63);
  }
 
  p{
