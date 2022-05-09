@@ -1,4 +1,9 @@
-button{
+.body{
+    display: flex;
+    margin: 15px;
+    padding: 17px;
+}
+.button_s button{
     background-color: red;
     color: white;
     border: none;
@@ -10,8 +15,43 @@ button{
     margin-right: 8px;
     transition: opacity 0.15s;
 }
- button:hover{
+ .button_s :hover{
       background: blueviolet;
+ }
+ .button_j button{
+   
+    color: rgb(32, 32, 165);
+    border: solid  1px;
+    font-size: 15px;
+    height: 36px;
+    width: 63px ;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+ .button_j :hover{
+      background: rgb(32, 32, 165);
+      color: #fff;
+ }
+ .button_j :active{
+     opacity: 0.8px;
+ }
+ .button_t button{
+    background-color: rgb(32, 32, 165);;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    height: 36px;
+    width: 70px ;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+ .button_t :hover{
+      background: rgb(32, 32, 165);
  }
 
  p{
