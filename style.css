@@ -1,3 +1,17 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+CSS rules to specify families
+
+p {
+    font-family: 'Roboto', sans-serif;
+    
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .thumbnail{
     width: 300px;
    
@@ -8,12 +22,13 @@
     display: block;
    
 }
-.video-title{
-    width: 300px;
+.video-marques, .video-3.4m{
+font-size: 12px;
+color: rgb(96, 96, 96);
+
 }
-.video-marques, .video-3-4m{
-
-
+.video-marques{
+    margin-bottom: 5px;
 }
 
 .videa-preview{
@@ -21,4 +36,27 @@
      display: inline-block;
      vertical-align: top;
      margin-right: 15px;
+}
+.channel-profil{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.video-info{
+display: inline-block;
+width:200px;
+}
+.profil-picture{
+    width: 100%;
+    border-radius: 50px;
+
+}
+.video-title{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.thumbnail-row{
+    margin-top: 12px;
 }
