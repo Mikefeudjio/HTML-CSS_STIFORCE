@@ -1,72 +1,24 @@
-.body{
-    display: flex;
-    margin: 15px;
-    padding: 17px;
-}
-.button_s button{
-    background-color: red;
-    color: white;
-    border: none;
-    font-size: 15px;
-    height: 36px;
-    width:105px ;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    transition: opacity 0.15s;
-}
- .button_s :hover{
-      background: blueviolet;
- }
- .button_j button{
-   
-    color: rgb(32, 32, 165);
-    border: solid  1px;
-    font-size: 15px;
-    height: 36px;
-    width: 63px ;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    transition: background-color 1s;
-}
- .button_j :hover{
-      background: rgb(32, 32, 165);
-      color: #fff;
- }
- .button_j :active{
-     opacity: 0.8px;
- }
- .button_t button{
-    background-color: rgb(32, 32, 165);;
-    color: #fff;
-    border: none;
-    font-size: 15px;
-    height: 36px;
-    width: 70px ;
-    border-radius: 30px;
-    cursor: pointer;
-    margin-right: 8px;
-    font-weight: bold;
-    font-size: 15px;
-}
- .button_t :hover{
-    box-shadow: 5px 5px 10px rgb(151, 63, 63);
- }
-
- p{
-     color: blueviolet;
- }
- .thumbnail{
-    width: 300pX;
-    display: block;
-
-}
-.block-l{
+.thumbnail{
     width: 300px;
-    padding: 15px;
-}
-.flex{
-    display: flex;
+   
 
+}
+.search{
+    font-size: 20px;
+    display: block;
+   
+}
+.video-title{
+    width: 300px;
+}
+.video-marques, .video-3-4m{
+
+
+}
+
+.videa-preview{
+     width: 300px;
+     display: inline-block;
+     vertical-align: top;
+     margin-right: 15px;
 }
