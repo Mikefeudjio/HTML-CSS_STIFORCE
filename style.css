@@ -73,3 +73,34 @@ background-color: lightpink ;
     display: grid;
     grid-template-columns: 100px 100px;
 }
+/*css section header*/
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.left-section{
+   
+    align-items: center;
+    display: flex;
+}
+.logo-2{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.logo-3{
+    height: 20px;
+}
+.middel-section{
+    background-color: lightcoral;
+  flex:1px;
+  margin-left: 75px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+.right-section{
+    background-color: blueviolet;
+}
