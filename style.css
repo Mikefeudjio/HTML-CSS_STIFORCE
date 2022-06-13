@@ -136,11 +136,28 @@ background-color: lightpink ;
     height: 25px;
     margin-top: 4px;
 }
-search::placeholder{
+.search-bar::placeholder{
     font-family: roboto,Arial;
-    font-size: 16px;
+    font-size: 18px;
 }
 .right-section{
     background-color: blueviolet;
     width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.upload-svg{
+    height: 24px;
+}
+.youtub-icon{
+    height: 24px;
+}
+.notifications{
+    height: 24px;
+}
+.my-picture-profil{
+    height: 32px;
+    border-radius: 50px;
+    margin-right: 20px;
 }
