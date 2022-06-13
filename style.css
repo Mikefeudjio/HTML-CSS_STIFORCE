@@ -69,15 +69,9 @@ background-color: lightpink ;
     grid-template-columns: 100px 100px;
 }
 /*css section header*/
-.header{
-    height: 55px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 
-}
 .left-section{
-     background-color: aqua;
+    
     align-items: center;
     display: flex;
 
@@ -91,7 +85,7 @@ background-color: lightpink ;
     height: 24px;
 }
 .middel-section{
-    background-color: lightcoral;
+  
   flex: 1;
   margin-left: 75px;
   margin-right: 35 px;
@@ -141,9 +135,9 @@ background-color: lightpink ;
     font-size: 18px;
 }
 .right-section{
-    background-color: blueviolet;
+    
     width: 200px;
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: space-between;
 }
@@ -156,8 +150,93 @@ background-color: lightpink ;
 .notifications{
     height: 24px;
 }
+.notication-count{
+    background-color: rgb(177, 8, 8);
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+.notication-icon-container{
+    position: relative;
+}
 .my-picture-profil{
     height: 32px;
     border-radius: 50px;
     margin-right: 20px;
+}
+.header{
+    
+height: 55px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+background-color: #fff ;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+z-index: 1;
+}
+BODY{
+  margin: 0;
+  padding: 80px;   
+  padding-left: 96px;
+  padding-right: 14px;
+}
+.sidebar{
+position: fixed;
+left: 0;
+bottom: 0;
+top: 55px;
+background-color:white;
+width: 72px;
+z-index: 200;
+padding-top: 5px;
+}
+.sidebar-lik{
+    height: 74px  ;
+    border-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar-lik:hover{
+    background-color: lightgray;
+}
+.sidebar-lik img{
+    width: 24px;
+    margin-bottom: 4px;
+   
+}
+.sidebar-lik div{
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif, serif;
+    font-size: 12px;
+
+}
+.vodeo-time{
+    font-family: roboto,Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    top: 218px;
+    right: 8px;
+}
+.videa-preview{
+    margin-bottom: 12px;
+    position: relative;  
 }
